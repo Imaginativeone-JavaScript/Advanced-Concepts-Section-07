@@ -17,7 +17,12 @@
 	  - What is Functional Programming?
 	  - Functional programming is ALL ABOUT SEPARATION OF CONCERNS
 	  - Also separates Data from Function
-	  - 
+	  - Emphasis on Simplicity where Data and Functions are concerned
+	  - No classes and methods
+	  - Functions OPERATE on well-defined data structures like arrays and objects, rather than BELONGING to the data structure
+	  - Very Important Pillar
+	    - PURE FUNCTIONS
+	    - All objects created in FP are IMMUTABLE
 	- [ ] 112. 07-03 03:37 Exercise: Amazon | 4min
 	- [ ] 113. 07-04 04:35 Pure Functions | 5min
 	- [ ] 114. 07-05 07:47 Pure Functions 2 | 8min
