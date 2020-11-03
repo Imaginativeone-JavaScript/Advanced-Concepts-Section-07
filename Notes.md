@@ -7,7 +7,17 @@
 	  - Referential Transparency
 	  - Compose
 	  - Pipe
+	  - LISP 1958
+	  - Lambda Calculus
+	  - Works well with Distributed Computing
+	    - Pascal, Scala, Clojure
+	  - Works well with Parallel Computing
+	  - Redux, React
 	- [ ] 111. 07-02 03:31 Functional Programming Introduction | 4min
+	  - What is Functional Programming?
+	  - Functional programming is ALL ABOUT SEPARATION OF CONCERNS
+	  - Also separates Data from Function
+	  - 
 	- [ ] 112. 07-03 03:37 Exercise: Amazon | 4min
 	- [ ] 113. 07-04 04:35 Pure Functions | 5min
 	- [ ] 114. 07-05 07:47 Pure Functions 2 | 8min
