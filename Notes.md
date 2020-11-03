@@ -1,5 +1,12 @@
 - [ ] Section 07: Functional Programming 00/20 | 1hr 55min
 	- [ ] 110. 07-01 02:29 Section Overview | 2min
+	  - Composition vs Inheritance
+	  - Curry
+	  - Partial Application
+	  - Pure Functions
+	  - Referential Transparency
+	  - Compose
+	  - Pipe
 	- [ ] 111. 07-02 03:31 Functional Programming Introduction | 4min
 	- [ ] 112. 07-03 03:37 Exercise: Amazon | 4min
 	- [ ] 113. 07-04 04:35 Pure Functions | 5min
