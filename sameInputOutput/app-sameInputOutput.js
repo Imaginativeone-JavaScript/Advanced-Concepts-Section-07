@@ -1,31 +1,14 @@
 // no side effects
 // input --> output
 
-const array = [1, 2, 3];
-
-function mutateArray(arr) {
-  arr.pop();
+function a(num1, num2) {
+  return num1 + num2;
 }
 
-function mutateArray2(arr) {
-  arr.forEach(item => {
-    arr.push(1);
-  });
+a(3, 4); // This always returns 7; REFERENTIAL TRANSPARENCY
+
+function b(num) {
+  return b * 2;
 }
 
-// mutateArray(array);
-// console.log(array); // side effects
-
-// mutateArray2(array); // more side effects; the original array is all messed up
-// console.log(array);
-
-// How can I create a function that has no side effects?
-// Create a new array
-
-function removeLastItem(arr) {
-  const newArray = [].concat(arr); // A new copy of arr is created here.
-  newArray.pop();
-  return newArray;
-}
-
-console.log('function applied', removeLastItem(array), 'original array', array);
+b(a(3, 4)); // returns 14, same as b(7)
