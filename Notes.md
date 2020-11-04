@@ -30,13 +30,13 @@
 	  - See the noSideEffects folder.
 	- [ ] 114. 07-05 07:47 Pure Functions 2 | 8min
 
-    Let's say that I have:
+    Let's say that I have
 		```javascript
 		function a() {
 			console.log('hi'); // Is this a pure function?
 		}
 		```
-		No, this function affects The Browser, which is outside of a().
+		- No, this function affects The Browser, which is outside of a().
 
 		- Now, see sameInputOutput
 
