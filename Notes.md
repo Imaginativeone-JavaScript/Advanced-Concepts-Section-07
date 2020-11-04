@@ -15,8 +15,8 @@
 	  - Redux, React
 	- [ ] 111. 07-02 03:31 Functional Programming Introduction | 4min
 	  - What is Functional Programming?
-	  - Functional programming is ALL ABOUT SEPARATION OF CONCERNS
-	  - Also separates Data from Function
+	  	- Functional programming is ALL ABOUT SEPARATION OF CONCERNS
+	  	- Also separates Data from Function
 	  - Emphasis on Simplicity where Data and Functions are concerned
 	  - No classes and methods
 	  - Functions OPERATE on well-defined data structures like arrays and objects, rather than BELONGING to the data structure
@@ -24,8 +24,22 @@
 	    - PURE FUNCTIONS
 	    - All objects created in FP are IMMUTABLE
 	- [ ] 112. 07-03 03:37 Exercise: Amazon | 4min
+		- A function has to always return the same output, given the same input.
+		- The function cannot modify anything outside of itself (no side effects).
 	- [ ] 113. 07-04 04:35 Pure Functions | 5min
+	  - See the noSideEffects folder.
 	- [ ] 114. 07-05 07:47 Pure Functions 2 | 8min
+
+    Let's say that I have:
+		```javascript
+		function a() {
+			console.log('hi'); // Is this a pure function?
+		}
+		```
+		No, this function affects The Browser, which is outside of a().
+
+		- Now, see sameInputOutput
+
 	- [ ] 115. 07-06 04:33 Can Everything Be Pure? | 5min
 	- [ ] 116. 07-07 04:08 Idempotent | 4min
 	- [ ] 117. 07-08 06:27 Imperative vs Declarative | 6min
